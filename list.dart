@@ -95,11 +95,20 @@ void main() {
 // RemoveWhere(); //constructor function
   var lst = [2, -3, -5, 2, 5, 4, 6, 7, 8, 3];
   print(lst);
-  lst.removeWhere(
-      (element) => element < 0); // remove elements at specific condition
-  print(lst);
+  // lst.removeWhere(
+  //     (element) => element < 0); // remove elements at specific condition
+  // print(lst);
 
-  lst.retainWhere(
-      (element) => element > 7); //us element ko rakho jo greater than 7 he
-  print(lst);
+  // lst.retainWhere(
+  //     (element) => element > 7); //us element ko rakho jo greater than 7 he
+  // print(lst);
+
+  // loop
+  // for (var i in lst) {
+  //   print(i);
+  // }
+
+  lst.forEach((element) {
+    print(element);
+  });
 }
